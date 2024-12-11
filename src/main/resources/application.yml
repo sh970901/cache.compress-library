@@ -1,0 +1,5 @@
+spring:
+  redis:
+    compress:
+      targetCacheManagers: cacheManager, redisCacheManager
+      thresholdSize: 10
